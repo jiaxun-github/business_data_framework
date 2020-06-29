@@ -1,0 +1,29 @@
+server:
+  port: 8021
+  servlet:
+    context-path: /api/order
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+##    schema: classpath:db/schema-h2.sql
+##    data: classpath:db/data-h2.sql
+#    url: jdbc:mysql://127.0.0.1:3306/test?serverTimezone=GMT%2B8&characterEncoding=UTF-8
+#    username: root
+#    password: 123456
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: 127.0.0.1:8848
+#    sentinel:
+#      eager: true
+#      transport:
+#        port: 8719
+#        dashboard: 127.0.0.1:8080
+#      datasource:
+#        ds2:
+#          nacos:
+#            server-addr: 127.0.0.1:8848
+#            dataId: ${spring.application.name}-sentinel
+#            group-id: DEFAULT_GROUP
+#            data-type: json
+#            rule-type: flow
+

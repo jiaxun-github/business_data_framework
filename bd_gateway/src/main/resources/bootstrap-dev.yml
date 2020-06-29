@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 10.8.41.5:8848 #开发环境
+        file-extension: yml
+

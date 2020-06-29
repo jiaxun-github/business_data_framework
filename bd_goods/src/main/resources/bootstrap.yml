@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: bd-goods
+  profiles:
+    active: @profiles.active@

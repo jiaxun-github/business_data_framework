@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: bd-gateway
+  profiles:
+    active: @profiles.active@
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: 127.0.0.1:8848
+#    gateway:
+#      discovery:
+#        locator:
+#          enabled: true
+#      routes:
+#        - id: bd-goods-router #路由到商品
+#          uri: lb://bd-goods
+#          predicates:
+#            - Path=/api/goods/**
+#          filters:
+#            - StripPrefix=1
+#            - name: Hystrix
+#              args:
+#                name: fallbackcmd
+#                fallbackUri: forward:/fallback
+#        - id: bd-order-router #路由到订单
+#          uri: lb://bd-order
+#          predicates:
+#            - Path=/api/order/**
+#          filters:
+#            - StripPrefix=1
+#            - name: Hystrix
+#              args:
+#                name: fallbackcmd
+#                fallbackUri: forward:/fallback

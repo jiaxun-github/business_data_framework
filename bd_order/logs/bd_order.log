@@ -1,0 +1,196 @@
+24-06-2020 15:32:05.944 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext.prepareRefresh - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@770d3326: startup date [Wed Jun 24 15:32:05 CST 2020]; root of context hierarchy
+24-06-2020 15:32:06.141 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor.<init> - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+24-06-2020 15:32:06.175 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$dfc6535c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-06-2020 15:32:06.539 [main] INFO  c.a.c.n.c.NacosPropertySourceBuilder.loadNacosData - Loading nacos data, dataId: 'bd-order-dev.yml', group: 'DEFAULT_GROUP'
+24-06-2020 15:32:06.543 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration.initialize - Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='bd-order-dev.yml'}, NacosPropertySource {name='bd-order.yml'}]}
+24-06-2020 15:32:06.547 [main] INFO  com.shulian.order.BdOrderApplication.logStartupProfileInfo - The following profiles are active: dev
+24-06-2020 15:32:06.559 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.prepareRefresh - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@602e0143: startup date [Wed Jun 24 15:32:06 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@770d3326
+24-06-2020 15:32:07.048 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=1a009597-c692-3de2-85f1-689c56ccb4b7
+24-06-2020 15:32:07.066 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor.<init> - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+24-06-2020 15:32:07.117 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$dfc6535c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-06-2020 15:32:07.321 [main] INFO  org.xnio.<clinit> - XNIO version 3.3.8.Final
+24-06-2020 15:32:07.336 [main] INFO  org.xnio.nio.<clinit> - XNIO NIO Implementation Version 3.3.8.Final
+24-06-2020 15:32:07.378 [main] WARN  io.undertow.websockets.jsr.handleDeployment - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+24-06-2020 15:32:07.378 [main] WARN  io.undertow.websockets.jsr.handleDeployment - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+24-06-2020 15:32:07.404 [main] INFO  io.undertow.servlet.log - Initializing Spring embedded WebApplicationContext
+24-06-2020 15:32:07.404 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 845 ms
+24-06-2020 15:32:07.442 [main] INFO  o.s.b.w.s.ServletRegistrationBean.addRegistration - Servlet dispatcherServlet mapped to [/]
+24-06-2020 15:32:07.448 [main] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+24-06-2020 15:32:07.449 [main] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+24-06-2020 15:32:07.449 [main] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+24-06-2020 15:32:07.449 [main] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+24-06-2020 15:32:07.504 [main] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+24-06-2020 15:32:07.505 [main] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+24-06-2020 15:32:07.509 [main] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+24-06-2020 15:32:07.510 [main] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+24-06-2020 15:32:07.588 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+24-06-2020 15:32:07.784 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@602e0143: startup date [Wed Jun 24 15:32:06 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@770d3326
+24-06-2020 15:32:07.839 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+24-06-2020 15:32:07.841 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+24-06-2020 15:32:07.863 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+24-06-2020 15:32:07.863 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+24-06-2020 15:32:07.980 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler.initialize - Initializing ExecutorService
+24-06-2020 15:32:08.180 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+24-06-2020 15:32:08.188 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.autodetect - Bean with name 'refreshScope' has been autodetected for JMX exposure
+24-06-2020 15:32:08.189 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.autodetect - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+24-06-2020 15:32:08.190 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.autodetect - Bean with name 'environmentManager' has been autodetected for JMX exposure
+24-06-2020 15:32:08.192 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.registerBeanInstance - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+24-06-2020 15:32:08.202 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.registerBeanInstance - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+24-06-2020 15:32:08.209 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.registerBeanInstance - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=602e0143,type=ConfigurationPropertiesRebinder]
+24-06-2020 15:32:08.219 [main] INFO  o.s.c.s.DefaultLifecycleProcessor.start - Starting beans in phase 0
+24-06-2020 15:32:08.300 [main] INFO  o.s.b.w.e.u.UndertowServletWebServer.start - Undertow started on port(s) 8021 (http) with context path '/api/order'
+24-06-2020 15:32:08.665 [main] INFO  c.a.c.n.r.NacosServiceRegistry.register - nacos registry, bd-order 192.168.18.51:8021 register finished
+24-06-2020 15:32:08.670 [main] INFO  com.shulian.order.BdOrderApplication.logStarted - Started BdOrderApplication in 3.34 seconds (JVM running for 4.093)
+24-06-2020 15:32:33.771 [Thread-17] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.doClose - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@602e0143: startup date [Wed Jun 24 15:32:06 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@770d3326
+24-06-2020 15:32:33.775 [Thread-17] INFO  o.s.c.s.DefaultLifecycleProcessor.stop - Stopping beans in phase 0
+24-06-2020 15:32:33.776 [Thread-17] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+24-06-2020 15:32:33.776 [Thread-17] INFO  o.s.j.e.a.AnnotationMBeanExporter.unregisterBeans - Unregistering JMX-exposed beans
+24-06-2020 15:32:33.777 [Thread-17] INFO  c.a.c.n.r.NacosServiceRegistry.deregister - De-registering from Nacos Server now...
+24-06-2020 15:32:33.809 [Thread-17] INFO  c.a.c.n.r.NacosServiceRegistry.deregister - De-registration finished.
+24-06-2020 15:32:51.939 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext.prepareRefresh - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@346d61be: startup date [Wed Jun 24 15:32:51 CST 2020]; root of context hierarchy
+24-06-2020 15:32:52.182 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor.<init> - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+24-06-2020 15:32:52.215 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$553be982] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-06-2020 15:32:52.546 [main] INFO  c.a.c.n.c.NacosPropertySourceBuilder.loadNacosData - Loading nacos data, dataId: 'bd-order-dev.yml', group: 'DEFAULT_GROUP'
+24-06-2020 15:32:52.550 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration.initialize - Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='bd-order-dev.yml'}, NacosPropertySource {name='bd-order.yml'}]}
+24-06-2020 15:32:52.555 [main] INFO  com.shulian.order.BdOrderApplication.logStartupProfileInfo - The following profiles are active: dev
+24-06-2020 15:32:52.569 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.prepareRefresh - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@ab7395e: startup date [Wed Jun 24 15:32:52 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@346d61be
+24-06-2020 15:32:53.046 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=1a009597-c692-3de2-85f1-689c56ccb4b7
+24-06-2020 15:32:53.061 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor.<init> - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+24-06-2020 15:32:53.096 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$553be982] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-06-2020 15:32:53.285 [main] INFO  org.xnio.<clinit> - XNIO version 3.3.8.Final
+24-06-2020 15:32:53.295 [main] INFO  org.xnio.nio.<clinit> - XNIO NIO Implementation Version 3.3.8.Final
+24-06-2020 15:32:53.331 [main] WARN  io.undertow.websockets.jsr.handleDeployment - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+24-06-2020 15:32:53.331 [main] WARN  io.undertow.websockets.jsr.handleDeployment - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+24-06-2020 15:32:53.352 [main] INFO  io.undertow.servlet.log - Initializing Spring embedded WebApplicationContext
+24-06-2020 15:32:53.353 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 784 ms
+24-06-2020 15:32:53.392 [main] INFO  o.s.b.w.s.ServletRegistrationBean.addRegistration - Servlet dispatcherServlet mapped to [/]
+24-06-2020 15:32:53.396 [main] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+24-06-2020 15:32:53.396 [main] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+24-06-2020 15:32:53.396 [main] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+24-06-2020 15:32:53.397 [main] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+24-06-2020 15:32:53.440 [main] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+24-06-2020 15:32:53.440 [main] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+24-06-2020 15:32:53.444 [main] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+24-06-2020 15:32:53.444 [main] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+24-06-2020 15:32:53.529 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+24-06-2020 15:32:53.674 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@ab7395e: startup date [Wed Jun 24 15:32:52 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@346d61be
+24-06-2020 15:32:53.719 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+24-06-2020 15:32:53.720 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+24-06-2020 15:32:53.743 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+24-06-2020 15:32:53.744 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+24-06-2020 15:32:53.855 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler.initialize - Initializing ExecutorService
+24-06-2020 15:32:54.045 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+24-06-2020 15:32:54.053 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.autodetect - Bean with name 'refreshScope' has been autodetected for JMX exposure
+24-06-2020 15:32:54.054 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.autodetect - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+24-06-2020 15:32:54.055 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.autodetect - Bean with name 'environmentManager' has been autodetected for JMX exposure
+24-06-2020 15:32:54.057 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.registerBeanInstance - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+24-06-2020 15:32:54.067 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.registerBeanInstance - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+24-06-2020 15:32:54.076 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.registerBeanInstance - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=ab7395e,type=ConfigurationPropertiesRebinder]
+24-06-2020 15:32:54.087 [main] INFO  o.s.c.s.DefaultLifecycleProcessor.start - Starting beans in phase 0
+24-06-2020 15:32:54.156 [main] INFO  o.s.b.w.e.u.UndertowServletWebServer.start - Undertow started on port(s) 8021 (http) with context path '/api/order'
+24-06-2020 15:32:54.261 [main] INFO  c.a.c.n.r.NacosServiceRegistry.register - nacos registry, bd-order 192.168.18.51:8021 register finished
+24-06-2020 15:32:54.266 [main] INFO  com.shulian.order.BdOrderApplication.logStarted - Started BdOrderApplication in 2.854 seconds (JVM running for 3.539)
+24-06-2020 15:33:10.891 [Thread-16] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.doClose - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@ab7395e: startup date [Wed Jun 24 15:32:52 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@346d61be
+24-06-2020 15:33:10.893 [Thread-16] INFO  o.s.c.s.DefaultLifecycleProcessor.stop - Stopping beans in phase 0
+24-06-2020 15:33:10.894 [Thread-16] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+24-06-2020 15:33:10.894 [Thread-16] INFO  o.s.j.e.a.AnnotationMBeanExporter.unregisterBeans - Unregistering JMX-exposed beans
+24-06-2020 15:33:10.895 [Thread-16] INFO  c.a.c.n.r.NacosServiceRegistry.deregister - De-registering from Nacos Server now...
+24-06-2020 15:33:10.925 [Thread-16] INFO  c.a.c.n.r.NacosServiceRegistry.deregister - De-registration finished.
+24-06-2020 15:34:19.386 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext.prepareRefresh - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@49dc7102: startup date [Wed Jun 24 15:34:19 CST 2020]; root of context hierarchy
+24-06-2020 15:34:19.574 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor.<init> - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+24-06-2020 15:34:19.605 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$cc8f0d31] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-06-2020 15:34:19.948 [main] INFO  c.a.c.n.c.NacosPropertySourceBuilder.loadNacosData - Loading nacos data, dataId: 'bd-order-dev.yml', group: 'DEFAULT_GROUP'
+24-06-2020 15:34:19.953 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration.initialize - Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='bd-order-dev.yml'}, NacosPropertySource {name='bd-order.yml'}]}
+24-06-2020 15:34:19.957 [main] INFO  com.shulian.order.BdOrderApplication.logStartupProfileInfo - The following profiles are active: dev
+24-06-2020 15:34:19.972 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.prepareRefresh - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41e68d87: startup date [Wed Jun 24 15:34:19 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@49dc7102
+24-06-2020 15:34:20.435 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=1a009597-c692-3de2-85f1-689c56ccb4b7
+24-06-2020 15:34:20.465 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor.<init> - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+24-06-2020 15:34:20.496 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$cc8f0d31] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-06-2020 15:34:20.677 [main] INFO  org.xnio.<clinit> - XNIO version 3.3.8.Final
+24-06-2020 15:34:20.688 [main] INFO  org.xnio.nio.<clinit> - XNIO NIO Implementation Version 3.3.8.Final
+24-06-2020 15:34:20.725 [main] WARN  io.undertow.websockets.jsr.handleDeployment - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+24-06-2020 15:34:20.726 [main] WARN  io.undertow.websockets.jsr.handleDeployment - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+24-06-2020 15:34:20.745 [main] INFO  io.undertow.servlet.log - Initializing Spring embedded WebApplicationContext
+24-06-2020 15:34:20.745 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 773 ms
+24-06-2020 15:34:20.789 [main] INFO  o.s.b.w.s.ServletRegistrationBean.addRegistration - Servlet dispatcherServlet mapped to [/]
+24-06-2020 15:34:20.793 [main] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+24-06-2020 15:34:20.793 [main] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+24-06-2020 15:34:20.794 [main] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+24-06-2020 15:34:20.794 [main] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+24-06-2020 15:34:20.843 [main] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+24-06-2020 15:34:20.843 [main] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+24-06-2020 15:34:20.847 [main] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+24-06-2020 15:34:20.847 [main] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+24-06-2020 15:34:20.926 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+24-06-2020 15:34:21.115 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41e68d87: startup date [Wed Jun 24 15:34:19 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@49dc7102
+24-06-2020 15:34:21.161 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+24-06-2020 15:34:21.163 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+24-06-2020 15:34:21.185 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+24-06-2020 15:34:21.186 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+24-06-2020 15:34:21.297 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler.initialize - Initializing ExecutorService
+24-06-2020 15:34:21.481 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+24-06-2020 15:34:21.488 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.autodetect - Bean with name 'refreshScope' has been autodetected for JMX exposure
+24-06-2020 15:34:21.489 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.autodetect - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+24-06-2020 15:34:21.490 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.autodetect - Bean with name 'environmentManager' has been autodetected for JMX exposure
+24-06-2020 15:34:21.492 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.registerBeanInstance - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+24-06-2020 15:34:21.502 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.registerBeanInstance - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+24-06-2020 15:34:21.511 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.registerBeanInstance - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=41e68d87,type=ConfigurationPropertiesRebinder]
+24-06-2020 15:34:21.520 [main] INFO  o.s.c.s.DefaultLifecycleProcessor.start - Starting beans in phase 0
+24-06-2020 15:34:21.590 [main] INFO  o.s.b.w.e.u.UndertowServletWebServer.start - Undertow started on port(s) 8021 (http) with context path '/api/order'
+24-06-2020 15:34:21.783 [main] INFO  c.a.c.n.r.NacosServiceRegistry.register - nacos registry, bd-order 192.168.18.51:8021 register finished
+24-06-2020 15:34:21.788 [main] INFO  com.shulian.order.BdOrderApplication.logStarted - Started BdOrderApplication in 2.96 seconds (JVM running for 3.72)
+24-06-2020 15:34:50.547 [Thread-17] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.doClose - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41e68d87: startup date [Wed Jun 24 15:34:19 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@49dc7102
+24-06-2020 15:34:50.549 [Thread-17] INFO  o.s.c.s.DefaultLifecycleProcessor.stop - Stopping beans in phase 0
+24-06-2020 15:34:50.550 [Thread-17] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+24-06-2020 15:34:50.551 [Thread-17] INFO  o.s.j.e.a.AnnotationMBeanExporter.unregisterBeans - Unregistering JMX-exposed beans
+24-06-2020 15:34:50.552 [Thread-17] INFO  c.a.c.n.r.NacosServiceRegistry.deregister - De-registering from Nacos Server now...
+24-06-2020 15:34:50.577 [Thread-17] INFO  c.a.c.n.r.NacosServiceRegistry.deregister - De-registration finished.
+24-06-2020 15:45:22.204 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext.prepareRefresh - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3e6ef8ad: startup date [Wed Jun 24 15:45:22 CST 2020]; root of context hierarchy
+24-06-2020 15:45:22.434 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor.<init> - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+24-06-2020 15:45:22.468 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ce6e4ea] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-06-2020 15:45:22.876 [main] INFO  c.a.c.n.c.NacosPropertySourceBuilder.loadNacosData - Loading nacos data, dataId: 'bd-order-dev.yml', group: 'DEFAULT_GROUP'
+24-06-2020 15:45:22.881 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration.initialize - Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='bd-order-dev.yml'}, NacosPropertySource {name='bd-order.yml'}]}
+24-06-2020 15:45:22.886 [main] INFO  com.shulian.order.BdOrderApplication.logStartupProfileInfo - The following profiles are active: dev
+24-06-2020 15:45:22.901 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.prepareRefresh - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5ce8d869: startup date [Wed Jun 24 15:45:22 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3e6ef8ad
+24-06-2020 15:45:23.412 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=1a009597-c692-3de2-85f1-689c56ccb4b7
+24-06-2020 15:45:23.430 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor.<init> - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+24-06-2020 15:45:23.472 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ce6e4ea] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-06-2020 15:45:23.678 [main] INFO  org.xnio.<clinit> - XNIO version 3.3.8.Final
+24-06-2020 15:45:23.694 [main] INFO  org.xnio.nio.<clinit> - XNIO NIO Implementation Version 3.3.8.Final
+24-06-2020 15:45:23.734 [main] WARN  io.undertow.websockets.jsr.handleDeployment - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+24-06-2020 15:45:23.735 [main] WARN  io.undertow.websockets.jsr.handleDeployment - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+24-06-2020 15:45:23.761 [main] INFO  io.undertow.servlet.log - Initializing Spring embedded WebApplicationContext
+24-06-2020 15:45:23.762 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 861 ms
+24-06-2020 15:45:23.801 [main] INFO  o.s.b.w.s.ServletRegistrationBean.addRegistration - Servlet dispatcherServlet mapped to [/]
+24-06-2020 15:45:23.810 [main] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+24-06-2020 15:45:23.811 [main] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+24-06-2020 15:45:23.812 [main] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+24-06-2020 15:45:23.812 [main] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+24-06-2020 15:45:23.870 [main] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+24-06-2020 15:45:23.870 [main] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+24-06-2020 15:45:23.873 [main] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+24-06-2020 15:45:23.874 [main] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+24-06-2020 15:45:23.957 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+24-06-2020 15:45:24.146 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5ce8d869: startup date [Wed Jun 24 15:45:22 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3e6ef8ad
+24-06-2020 15:45:24.199 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+24-06-2020 15:45:24.200 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+24-06-2020 15:45:24.220 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+24-06-2020 15:45:24.221 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+24-06-2020 15:45:24.327 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler.initialize - Initializing ExecutorService
+24-06-2020 15:45:24.503 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+24-06-2020 15:45:24.511 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.autodetect - Bean with name 'refreshScope' has been autodetected for JMX exposure
+24-06-2020 15:45:24.512 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.autodetect - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+24-06-2020 15:45:24.512 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.autodetect - Bean with name 'environmentManager' has been autodetected for JMX exposure
+24-06-2020 15:45:24.515 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.registerBeanInstance - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+24-06-2020 15:45:24.525 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.registerBeanInstance - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+24-06-2020 15:45:24.533 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.registerBeanInstance - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=5ce8d869,type=ConfigurationPropertiesRebinder]
+24-06-2020 15:45:24.542 [main] INFO  o.s.c.s.DefaultLifecycleProcessor.start - Starting beans in phase 0
+24-06-2020 15:45:24.623 [main] INFO  o.s.b.w.e.u.UndertowServletWebServer.start - Undertow started on port(s) 8021 (http) with context path '/api/order'
+24-06-2020 15:45:24.814 [main] INFO  c.a.c.n.r.NacosServiceRegistry.register - nacos registry, bd-order 192.168.18.51:8021 register finished
+24-06-2020 15:45:24.820 [main] INFO  com.shulian.order.BdOrderApplication.logStarted - Started BdOrderApplication in 3.125 seconds (JVM running for 3.848)
+24-06-2020 15:45:28.517 [Thread-16] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.doClose - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5ce8d869: startup date [Wed Jun 24 15:45:22 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3e6ef8ad
+24-06-2020 15:45:28.519 [Thread-16] INFO  o.s.c.s.DefaultLifecycleProcessor.stop - Stopping beans in phase 0
+24-06-2020 15:45:28.520 [Thread-16] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+24-06-2020 15:45:28.521 [Thread-16] INFO  o.s.j.e.a.AnnotationMBeanExporter.unregisterBeans - Unregistering JMX-exposed beans
+24-06-2020 15:45:28.521 [Thread-16] INFO  c.a.c.n.r.NacosServiceRegistry.deregister - De-registering from Nacos Server now...
+24-06-2020 15:45:28.557 [Thread-16] INFO  c.a.c.n.r.NacosServiceRegistry.deregister - De-registration finished.

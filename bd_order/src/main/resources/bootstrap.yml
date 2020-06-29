@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: bd-order
+  profiles:
+    active: @profiles.active@
+
